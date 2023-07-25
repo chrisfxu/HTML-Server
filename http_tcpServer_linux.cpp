@@ -119,7 +119,7 @@ namespace http
 
     std::string TcpServer::buildResponse()
     {
-        std::string htmlFile = "<!DOCTYPE html><html lang=\"en\"><body><h1> HOME </h1><p> Hello from your Server :) </p></body></html>";
+        std::string htmlFile = "<!DOCTYPE html><html lang=\"en\"><body><h1> Hey! </h1><p> Hi! </p></body></html>";
         std::ostringstream ss;
         ss << "HTTP/1.1 200 OK\nContent-Type: text/html\nContent-Length: " << htmlFile.size() << "\n\n"
            << htmlFile;
