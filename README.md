@@ -1,6 +1,10 @@
 # http-server
 
-To run the application, navigate to the project directory and do:
+## Running the application
+
+To run the application, first make sure Docker is installed.
+
+Then, navigate to the project directory and do:
 'docker-compose build' to build the Docker image 
 'docker-compose up' to start the server
 
